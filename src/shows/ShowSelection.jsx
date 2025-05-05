@@ -9,7 +9,6 @@ export default function ShowSelection({ tvShows, setSelectedShow }) {
         <div 
           key={show.id} 
           onClick={() => setSelectedShow(show)} // Update selected show
-          style={{ cursor: "pointer", padding: "5px" }}
         >
           {show.name}
         </div>
